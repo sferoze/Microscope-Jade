@@ -1,0 +1,15 @@
+template(name="header")
+  header.navbar
+    .navbar-inner
+      a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.brand(href="{{pathFor 'postsList'}}") Microscope 
+      .nav-collapse.collapse
+        ul.nav
+          li
+            a(href="{{pathFor 'postSubmit'}}") New
+        ul.nav.pull-right
+          li
+            +loginButtons
