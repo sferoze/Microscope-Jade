@@ -1,7 +1,13 @@
 template(name='postItem')
   .post
+    a.upvote.btn(href="#", class='#{upvotedClass}') ⬆
     .post-content
       h3
         a(href='#{url}') #{title}
         span #{domain}
-    a.discuss.btn(href="{{pathFor 'postPage' _id=this._id}}") Discuss
+      p #{votes} {{pluralize votes "Vote"}}, submitted by #{author}, 
+        a(href="{{pathFor 'postPage'}}") #{commentsCount} comments
+        | 
+        if ownPost
+          a(href="{{pathFor 'postEdit'}}") Edit
+    a.discuss.btn(href="{{pathFor 'postPage' params=this}}") Discuss

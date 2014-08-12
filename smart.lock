@@ -5,13 +5,15 @@
       "jade": {},
       "spin": {},
       "iron-router": {},
-      "accounts-ui-bootstrap-dropdown": {}
+      "accounts-ui-bootstrap-dropdown": {},
+      "iron-router-progress": {},
+      "famous-components": {}
     },
     "packages": {
       "jade": {
         "git": "https://github.com/mquandalle/meteor-jade.git",
-        "tag": "v0.2.0",
-        "commit": "b0273abb6f13316c335f60bdedc0ee1026748058"
+        "tag": "v0.2.2",
+        "commit": "0391abab7d592b17ff74d9b9beaa721051970729"
       },
       "spin": {
         "git": "https://github.com/SachaG/meteor-spin.git",
@@ -20,18 +22,38 @@
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.7.0",
-        "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
       },
       "accounts-ui-bootstrap-dropdown": {
         "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
         "tag": "v0.8.3",
         "commit": "a7af8a52e4e74db020a69b158a8f992797b8b0b0"
       },
+      "iron-router-progress": {
+        "git": "https://github.com/Multiply/iron-router-progress.git",
+        "tag": "v0.3.1",
+        "commit": "3f7900feb4bb70a1289b39a1fdcd1f438c0335b3"
+      },
+      "famous-components": {
+        "git": "https://github.com/gadicc/meteor-famous-components.git",
+        "tag": "v0.0.7",
+        "commit": "f5dd98381e638b9b3dac6c1b6c9e28812c5dec43"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
-        "tag": "v0.2.2",
-        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "famono": {
+        "git": "https://github.com/raix/Meteor-famono.git",
+        "tag": "v0.1.4",
+        "commit": "64cb8c779c907facde604d35ecca51963fc13007"
+      },
+      "pince": {
+        "git": "https://github.com/mad-eye/pince.git",
+        "tag": "v0.0.5",
+        "commit": "4524ecc0bdf043c49dc62e91bbd8a99c661081ed"
       }
     }
   }

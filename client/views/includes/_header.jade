@@ -8,8 +8,11 @@ template(name="header")
       a.brand(href="{{pathFor 'postsList'}}") Microscope 
       .nav-collapse.collapse
         ul.nav
-          li
-            a(href="{{pathFor 'postSubmit'}}") New
+          if currentUser
+            li
+              a(href="{{pathFor 'postSubmit'}}") Submit Post
+            li.dropdown
+              +notifications
         ul.nav.pull-right
           li
             +loginButtons

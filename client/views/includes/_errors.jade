@@ -1,0 +1,9 @@
+template(name='errors')
+  .errors.row-fluid
+  each errors
+    +error
+
+template(name='error')
+  .alert.alert-error
+    button.close(type='button', data-dismiss='alert') &times;
+    | #{message}
